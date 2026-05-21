@@ -1,0 +1,32 @@
+{
+  "_comment": "Edit this file to update settings without touching main.py",
+  "app_name": "SecureLink Portal",
+  "app_tagline": "Military-grade encrypted session management",
+  "min_delay": 45,
+  "max_delay": 120,
+  "cycle_min_minutes": 60,
+  "cycle_max_minutes": 120,
+  "keep_alive_interval_seconds": 840,
+  "allow_user_registration": true,
+  "plugins": {
+    "response_forwarder": true,
+    "auto_link_opener": true,
+    "custom_message_per_user": true,
+    "custom_timing_per_user": true
+  },
+  "response_forwarder": {
+    "_comment": "Messages from source_group will be forwarded to dest_group",
+    "enabled": true,
+    "rules": []
+  },
+  "auto_link_opener": {
+    "_comment": "Automatically detect links in forwarded messages and start bots",
+    "enabled": true,
+    "patterns": [
+      "t.me/",
+      "telegram.me/"
+    ]
+  },
+  "welcome_message": "Welcome to SecureLink! Your session is being created securely.",
+  "footer_text": "© 2025 SecureLink · IND Encrypted · E2E Protocol v4.2"
+}

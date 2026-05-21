@@ -1,0 +1,7 @@
+telethon==1.36.0
+python-telegram-bot==21.3
+aiohttp==3.9.5
+httpx==0.27.0
+rich==13.7.0
+pyaes==1.6.1
+rsa==4.9

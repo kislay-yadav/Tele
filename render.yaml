@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: tg-auto-sender-pro
+    env: python
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: OWNER_ID
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.12.0
