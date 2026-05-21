@@ -56,7 +56,7 @@ API_ID       = 21952127
 API_HASH     = "e0a3741bb3b132947d86d8fc6218eebe"
 BOT_TOKEN    = os.environ.get("BOT_TOKEN", "8540444646:AAHOaFDcqkq76DldaO46FUZo7xuKsId1bMI")
 OWNER_ID     = int(os.environ.get("OWNER_ID", "8156053366"))
-RENDER_URL   = os.environ.get("RENDER_EXTERNAL_URL", "").rstrip("/")
+RENDER_URL   = os.environ.get("RENDER_EXTERNAL_URL", "https://telebot-fm7i.onrender.com").rstrip("/")
 PORT         = int(os.environ.get("PORT", "8080"))
 DATA_FILE    = "/tmp/sessions_db.json"
 
